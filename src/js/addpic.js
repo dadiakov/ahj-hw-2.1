@@ -7,9 +7,7 @@ export default function addPic(size) {
     const element = document.getElementById(index);
     document.querySelectorAll('.image').forEach((elem) => elem.remove());
     const pic = document.createElement('img');
-    //pic.src = '../src/img/goblin.png';
     pic.src = goblin;
-    // pic.src = 'https://raw.githubusercontent.com/netology-code/ahj-homeworks/simplification/dom/pic/goblin.png';
     pic.className = 'image';
     element.appendChild(pic);
   } else {
