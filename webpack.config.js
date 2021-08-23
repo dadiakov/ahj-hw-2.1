@@ -7,13 +7,8 @@ module.exports = {
   target: 'web',
   output: {
     path: path.resolve(__dirname, 'dist'),
-    publicPath: './',
+    publicPath: '/',
   },
-  // resolve: {
-  //   alias: {
-  //     images: path.resolve(__dirname, './src/img/'),
-  //   },
-  // },
   module: {
     rules: [
       {
